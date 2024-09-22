@@ -2,6 +2,8 @@
   --font-family: Raleway, Arial, Helvetica, sans-serif;
 }
 
+/** ANCHOR - Header */
+
 .header {
   display: grid;
   grid-template-columns: 1fr 1fr 236px;
@@ -59,6 +61,8 @@
   font-size: 18px;
   line-height: 1.35;
 }
+
+/** ANCHOR - Hero */
 
 .cover {
   position: relative;
@@ -153,6 +157,8 @@
   background-color: #fff;
 }
 
+/** ANCHOR - Lots */
+
 .lots {
   margin-top: 183px;
   padding: 0 24px;
@@ -171,9 +177,6 @@
   grid-template-columns: repeat(3, 1fr);
   column-gap: 25px;
   list-style: none;
-}
-
-.card-link {
 }
 
 .card {
@@ -228,6 +231,8 @@
   text-underline-position: under;
   width: fit-content;
 }
+
+/** ANCHOR - About */
 
 .about {
   display: grid;
