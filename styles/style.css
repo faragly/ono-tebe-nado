@@ -141,6 +141,7 @@
 }
 
 .bet-button {
+  font-family: Raleway, Arial, Helvetica, sans-serif;
   border: 1px #fff solid;
   padding-inline: 32px;
   padding-block: 12px;
@@ -171,7 +172,7 @@
 .lots__card-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  column-gap: 25px;
+  gap: 25px;
   list-style: none;
 }
 
@@ -217,6 +218,10 @@
 
 .card__text {
   font-size: 20px;
+}
+
+.card-link {
+  text-decoration: inherit;
 }
 
 .lots__look-more-link {
